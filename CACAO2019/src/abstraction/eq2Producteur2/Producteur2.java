@@ -126,7 +126,7 @@ public class Producteur2 implements IActeur, IVendeurContratCadre<Feve> {
 		this.journal.ajouter("balance du step : " + this.balanceDuStep());
 		this.journal.ajouter("benefices du mois : " + beneficesDuMois);
 		this.journal.ajouter("contrats conclus : " + contratsConclus);
-
+ 
 		contratsConclus = 0;
 		beneficesDuMois = 0;
 
